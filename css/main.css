@@ -41,6 +41,9 @@ body{
     font-weight: 800;color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#player>div>span{
+    display: inline;
+}
 
 #categories{
     grid-column: 1/6;
