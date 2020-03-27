@@ -1,0 +1,164 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(83,11,124);
+    background: linear-gradient(180deg, rgba(83,11,124,1) 0%, rgba(185,166,196,1) 53%, rgba(83,11,124,1) 100%);
+}
+
+#container{
+    height: 100%;
+    margin: 0 100px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(8,1fr);
+    
+}
+
+#player{
+    grid-column: 3/4;
+    grid-row: 1;
+    background: rgb(45,45,45);
+    background: linear-gradient(180deg, rgba(45,45,45,1) 0%, rgba(45,45,45,0.6) 100%);
+    margin: 10px;
+}
+
+#player>h1{
+    margin:0;
+    padding: 0 10%;
+    background: rgb(205,2,2);
+    background: linear-gradient(180deg, rgba(205,2,2,0.35057773109243695) 0%, rgba(205,2,2,1) 100%);
+
+}
+
+#player>div{
+    font-size: 3em;
+    font-weight: 800;color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#categories{
+    grid-column: 1/6;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+
+.categories-col{
+    background: rgb(45,45,45);
+    background: linear-gradient(180deg, rgba(45,45,45,1) 0%, rgba(45,45,45,0.6) 100%);
+    text-align: center;
+    color: #fff;
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 1.4em ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#clue-area{
+    grid-row: 3/8;
+    grid-column: 1/6;
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+
+.clue-col1,.clue-col2,.clue-col3,.clue-col4,.clue-col5{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 10px;
+}
+
+.clue{
+    text-align: center;
+    display: table;
+    vertical-align: middle;
+    background: rgb(45,45,45);
+    background: linear-gradient(180deg, rgba(45,45,45,1) 0%, rgba(45,45,45,0.2) 100%);
+    font-size: 2.5em;
+    font-weight: 800;color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.915);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.clue:hover{
+    background: rgb(45,45,45);
+    background: linear-gradient(180deg, rgba(45,45,45,0.1) 0%, rgba(45,45,45,0.9) 100%);
+}
+
+.selected{
+    opacity: 0.07 !important; 
+    background: rgb(45,45,45) !important;
+}
+
+
+/* Snake Animation */
+.clue span:nth-child(1){
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right,#e2e1a6,#dde5eb);
+    animation: animate-top 16s linear infinite;
+}
+
+.clue span:nth-child(2){
+    top: 0;
+    left: 0%;
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(to bottom,#e2e1a6,#dde5eb);
+    animation: animate-right 16s linear infinite;
+    animation-delay: 8s;
+}
+.clue span:nth-child(3){
+    top: 94%;
+    left: 0;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to left,#e2e1a6,#dde5eb);
+    animation: animate-bottom 16s linear infinite;
+}
+.clue span:nth-child(4){
+    top: 0;
+    left: 99%;
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(to top,#e2e1a6,#dde5eb);
+    animation: animate-left 16s linear infinite;
+    animation-delay: 8s;
+}
+
+@keyframes animate-top{
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(-100%);}
+}
+@keyframes animate-right{
+    0%{transform: translateY(-100%);}
+    100%{transform: translateY(100%);}
+}
+@keyframes animate-bottom{
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(100%);}
+}
+@keyframes animate-left{
+    0%{transform: translateY(100%);}
+    100%{transform: translateY(-100%);}
+}
+
+/* Snake Animation */
