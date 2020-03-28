@@ -89,5 +89,5 @@ xmlhttp.onreadystatechange = function() {
   });
 }
 }
-xmlhttp.open("GET", "https://skitzofrenzy.github.io/Jeopardy-Game/js/clueDetails.json", true);
+xmlhttp.open("GET", "https://skitzofrenzy.github.io/Jeopardy-Game/js/clueDetails.JSON", true);
 xmlhttp.send();
