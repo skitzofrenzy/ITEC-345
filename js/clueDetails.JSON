@@ -1,0 +1,288 @@
+{
+    "catergories":[
+      "Vocabulary",
+      "Iditarod Dream",
+      "Random",
+      "Mae Jemison",
+      "Me, Mop, and Moondance",
+      "Human Body Parts"
+    ],
+    "clueareaCol":[
+      {
+        "clueCol1":[
+          {
+            "question":"The definition of \"choreography\" is",
+            "answer":"What is the art of arranging dance?",
+            "options":[
+              "What is the art of composing music?",
+              "What is a lyrical dance?",
+              "What is the art of arranging dance?"
+            ],
+            "value":100
+          },
+          {
+            "question":"The word \"cramped\" is a?",
+            "answer":"What is an adjective?",
+            "options":["What is an adjective?","What is an noun?","What is an verb?"],
+            "value":200
+          },
+          {
+            "question":"To \"simulate\" something is to...",
+            "answer":"What is to make something that feels or appears real?",
+            "options":[
+              "What is a duplicate/copy?",
+              "What is to make something that feels or appears real?",
+              "What is annoy or bother?"
+            ],
+            "value":300
+          },
+          {
+            "question":"Which is NOT a synonym for \"straggle\"",
+            "answer":"What is Step aside?",
+            "options":["What is Step aside?","What is Fall behind?","What is Lag?"],
+            "value":400
+          },
+          {
+            "question":"Which of the following is a \"tributary\"",
+            "answer":"What is US: Mississippi River?",
+            "options":[
+              "What is Korea: Han River?",
+              "What is Canada: Hudson Bay?",
+              "What is US: Mississippi River?"
+            ],
+            "value":500
+          }
+        ]
+      },
+      {
+        "clueCol2":[
+          {
+            "question":"Why doesn't Dusty see the snowmobile that causes his first tangle?",
+            "answer":"Was it a blind corner, so he couldn't see it?",
+            "options":[
+              "Was it the ice was slick so the dogs fell?",
+              "Was it a moose so he was distracted?",
+              "Was it a blind corner, so he couldn't see it?"
+            ],
+            "value":100
+          },
+          {
+            "question":"Why are rumors spreading that Dusty mistreated his dogs?",
+            "answer":"Was it because he ran so fast?",
+            "options":["Was it because his dogs look exhausted?","Was it because none of them are wearing their booties?","Was it because he ran so fast?"],
+            "value":200
+          },
+          {
+            "question":"Which part of the trail has Dusty never done before?",
+            "answer":"Was it the beginning section in the woods?",
+            "options":[
+              "Was it the middle section of the forest?",
+              "Was it the beginning section in the woods?",
+              "Was it the end of the trail with the lake?"
+            ],
+            "value":300
+          },
+          {
+            "question":"Which is NOT a difference between the real Iditarod and the Junior Iditarod?",
+            "answer":"Was it both allow racers of all ages?",
+            "options":["Was it both have different number of dogs in the teams?","Was it both allow racers of all ages?","Was it both start and finish in different parts of Alaska?"],
+            "value":400
+          },
+          {
+            "question":"At the beginning of the race, which is NOT a reason Dusty is on edge?",
+            "answer":"Was it he saw a moose on the trail?",
+            "options":[
+              "Was it he saw a moose on the trail?",
+              "Was it he's never done this part of the trail?",
+              "Was it the trail was crowded with obstacles?"
+            ],
+            "value":500
+          }
+        ]
+      },
+      {
+        "clueCol3":[
+          {
+            "question":"Name the smallest country",
+            "answer":"Where is Singapore?",
+            "options":[
+              "Where is New Zealand?",
+              "Where is Singapore?",
+              "Where is Jamaica?"
+            ],
+            "value":100
+          },
+          {
+            "question":"Why are rumors spreading that Dusty mistreated his dogs?",
+            "answer":"Was it because he ran so fast?",
+            "options":["Was it because his dogs look exhausted?","Was it because none of them are wearing their booties?","Was it because he ran so fast?"],
+            "value":200
+          },
+          {
+            "question":"Which part of the trail has Dusty never done before?",
+            "answer":"Was it the beginning section in the woods?",
+            "options":[
+              "Was it the middle section of the forest?",
+              "Was it the beginning section in the woods?",
+              "Was it the end of the trail with the lake?"
+            ],
+            "value":300
+          },
+          {
+            "question":"Which is NOT a difference between the real Iditarod and the Junior Iditarod?",
+            "answer":"Was it both allow racers of all ages?",
+            "options":["Was it both have different number of dogs in the teams?","Was it both allow racers of all ages?","Was it both start and finish in different parts of Alaska?"],
+            "value":400
+          },
+          {
+            "question":"At the beginning of the race, which is NOT a reason Dusty is on edge?",
+            "answer":"Was it he saw a moose on the trail?",
+            "options":[
+              "Was it he saw a moose on the trail?",
+              "Was it he's never done this part of the trail?",
+              "Was it the trail was crowded with obstacles?"
+            ],
+            "value":500
+          }
+        ]
+      },
+      {
+        "clueCol4":[
+          {
+            "question":"Why doesn't Dusty see the snowmobile that causes his first tangle?",
+            "answer":"Was it a blind corner, so he couldn't see it?",
+            "options":[
+              "Was it the ice was slick so the dogs fell?",
+              "Was it a moose so he was distracted?",
+              "Was it a blind corner, so he couldn't see it?"
+            ],
+            "value":100
+          },
+          {
+            "question":"Why are rumors spreading that Dusty mistreated his dogs?",
+            "answer":"Was it because he ran so fast?",
+            "options":["Was it because his dogs look exhausted?","Was it because none of them are wearing their booties?","Was it because he ran so fast?"],
+            "value":200
+          },
+          {
+            "question":"Which part of the trail has Dusty never done before?",
+            "answer":"Was it the beginning section in the woods?",
+            "options":[
+              "Was it the middle section of the forest?",
+              "Was it the beginning section in the woods?",
+              "Was it the end of the trail with the lake?"
+            ],
+            "value":300
+          },
+          {
+            "question":"Which is NOT a difference between the real Iditarod and the Junior Iditarod?",
+            "answer":"Was it both allow racers of all ages?",
+            "options":["Was it both have different number of dogs in the teams?","Was it both allow racers of all ages?","Was it both start and finish in different parts of Alaska?"],
+            "value":400
+          },
+          {
+            "question":"At the beginning of the race, which is NOT a reason Dusty is on edge?",
+            "answer":"Was it he saw a moose on the trail?",
+            "options":[
+              "Was it he saw a moose on the trail?",
+              "Was it he's never done this part of the trail?",
+              "Was it the trail was crowded with obstacles?"
+            ],
+            "value":500
+          }
+        ]
+      },
+      {
+        "clueCol5":[
+          {
+            "question":"Why doesn't Dusty see the snowmobile that causes his first tangle?",
+            "answer":"Was it a blind corner, so he couldn't see it?",
+            "options":[
+              "Was it the ice was slick so the dogs fell?",
+              "Was it a moose so he was distracted?",
+              "Was it a blind corner, so he couldn't see it?"
+            ],
+            "value":100
+          },
+          {
+            "question":"Why are rumors spreading that Dusty mistreated his dogs?",
+            "answer":"Was it because he ran so fast?",
+            "options":["Was it because his dogs look exhausted?","Was it because none of them are wearing their booties?","Was it because he ran so fast?"],
+            "value":200
+          },
+          {
+            "question":"Which part of the trail has Dusty never done before?",
+            "answer":"Was it the beginning section in the woods?",
+            "options":[
+              "Was it the middle section of the forest?",
+              "Was it the beginning section in the woods?",
+              "Was it the end of the trail with the lake?"
+            ],
+            "value":300
+          },
+          {
+            "question":"Which is NOT a difference between the real Iditarod and the Junior Iditarod?",
+            "answer":"Was it both allow racers of all ages?",
+            "options":["Was it both have different number of dogs in the teams?","Was it both allow racers of all ages?","Was it both start and finish in different parts of Alaska?"],
+            "value":400
+          },
+          {
+            "question":"At the beginning of the race, which is NOT a reason Dusty is on edge?",
+            "answer":"Was it he saw a moose on the trail?",
+            "options":[
+              "Was it he saw a moose on the trail?",
+              "Was it he's never done this part of the trail?",
+              "Was it the trail was crowded with obstacles?"
+            ],
+            "value":500
+          }
+        ]
+      },
+      {
+        "clueCol6":[
+          {
+            "question":"Why doesn't Dusty see the snowmobile that causes his first tangle?",
+            "answer":"Was it a blind corner, so he couldn't see it?",
+            "options":[
+              "Was it the ice was slick so the dogs fell?",
+              "Was it a moose so he was distracted?",
+              "Was it a blind corner, so he couldn't see it?"
+            ],
+            "value":100
+          },
+          {
+            "question":"Why are rumors spreading that Dusty mistreated his dogs?",
+            "answer":"Was it because he ran so fast?",
+            "options":["Was it because his dogs look exhausted?","Was it because none of them are wearing their booties?","Was it because he ran so fast?"],
+            "value":200
+          },
+          {
+            "question":"Which part of the trail has Dusty never done before?",
+            "answer":"Was it the beginning section in the woods?",
+            "options":[
+              "Was it the middle section of the forest?",
+              "Was it the beginning section in the woods?",
+              "Was it the end of the trail with the lake?"
+            ],
+            "value":300
+          },
+          {
+            "question":"Which is NOT a difference between the real Iditarod and the Junior Iditarod?",
+            "answer":"Was it both allow racers of all ages?",
+            "options":["Was it both have different number of dogs in the teams?","Was it both allow racers of all ages?","Was it both start and finish in different parts of Alaska?"],
+            "value":400
+          },
+          {
+            "question":"At the beginning of the race, which is NOT a reason Dusty is on edge?",
+            "answer":"Was it he saw a moose on the trail?",
+            "options":[
+              "Was it he saw a moose on the trail?",
+              "Was it he's never done this part of the trail?",
+              "Was it the trail was crowded with obstacles?"
+            ],
+            "value":500
+          }
+        ]
+      }
+    ]
+  }
